@@ -1,0 +1,5 @@
+.Option,
+.ActiveOption {
+    color: #000000; /* cambia el color del texto */
+    text-decoration: none; /* quita la raya debajo del texto */
+}
