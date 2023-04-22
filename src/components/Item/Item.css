@@ -1,11 +1,30 @@
 .card {
     max-width: 300px;
     margin: 0 10px;
+    
 }
 
+.cardimg {
+    width: auto;
+    height: 300px;
+    margin: 30px;
+    
+}
 
 
 .card-group > .card:last-child {
     float: left;
 }  
 
+.buttoncard {
+    background-color: black;
+    border-color: black;
+    margin-left: 75px;
+
+
+}
+
+.buttoncard:hover {
+    background-color: green;
+    border-color: green;
+}

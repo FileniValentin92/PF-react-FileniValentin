@@ -5,8 +5,8 @@ import './Item.css';
 
 const Item = ({id, name, img, price, stock}) => {
     return (
-           <Card>
-                <Card.Img variant="top" src={img} alt={name} />
+           <Card className='Card'>
+                <Card.Img className="cardimg" variant="top" src={img} alt={name} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>
@@ -14,7 +14,7 @@ const Item = ({id, name, img, price, stock}) => {
                         <p>Stock disponible: {stock}</p>
                     </Card.Text>
                     <Link to={`/Item/${id}`}>
-                        <Button variant="primary">Ver detalle</Button>
+                        <Button className='buttoncard'>Ver detalle</Button>
                     </Link>
                 </Card.Body>
             </Card> 

@@ -1,6 +1,6 @@
 import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount.jsx';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ItemDetail = ({id, name, img, category, description, price, stock}) => {
@@ -22,7 +22,6 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) => {
                                     <p>Precio: ${price}</p>
                                 </Card.Text>
                                 <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log('Cantidad agregada ',quantity)}/>
-                                <Button variant="primary" className="mt-3">Agregar al carrito</Button>
                             </Card.Body>
                         </Card>
                     </Col>

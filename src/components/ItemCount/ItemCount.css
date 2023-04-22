@@ -1,0 +1,31 @@
+
+.Counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button {
+    background-color: red;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.Number {
+    
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+
+
+.Buttonagregar {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
