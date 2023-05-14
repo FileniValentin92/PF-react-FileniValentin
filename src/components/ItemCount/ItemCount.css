@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .Button {
     background-color: black;
     color: white;
@@ -9,36 +8,3 @@
 .Number {
     color: green;
 }
-=======
-
-.Counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Button {
-    background-color: red;
-    border-radius: 5px;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    
-}
-
-.Number {
-    
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-        
-    }
-
-
-.Buttonagregar {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    
-  }
-  
->>>>>>> d81c961fe7bbf1d11b71d7a177f820e45eadf2be

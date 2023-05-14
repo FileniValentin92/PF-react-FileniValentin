@@ -12,7 +12,7 @@ export const CartItem = ({ id, name, price, quantity, item }) => {
                 Precio: ${price}
                 </p>
                 <p className="card-text">
-                Cantidad: ${quantity}
+                Cantidad: {quantity}
                 </p>
                 <p className="card-text">
                 Subtotal: ${price * quantity}
