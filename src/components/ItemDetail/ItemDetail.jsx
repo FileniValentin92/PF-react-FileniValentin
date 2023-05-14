@@ -39,6 +39,7 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) => {
                                     <p>Descripción: {description}</p>
                                     <p>Precio: ${price}</p>
                                 </Card.Text>
+<<<<<<< HEAD
                                 <footer className='ItemFooter'>
                                     {
                                         quantityAdded > 0 ? (
@@ -50,6 +51,9 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) => {
 
                                 </footer>
                                 
+=======
+                                <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log('Cantidad agregada ',quantity)}/>
+>>>>>>> d81c961fe7bbf1d11b71d7a177f820e45eadf2be
                             </Card.Body>
                         </Card>
                     </Col>
